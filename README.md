@@ -6,24 +6,24 @@ A Streamlit web app to predict weekly sales for Walmart stores using a trained C
 
 •	Predict weekly sales based on inputs:
 
-     • Store ID
+ • Store ID
      
-     • Holiday Week (0 = No, 1 = Yes)
+ • Holiday Week (0 = No, 1 = Yes)
      
-     • Temperature
+ • Temperature
      
-     • Fuel Price
+ • Fuel Price
      
-     • CPI
+ • CPI
      
-     • Unemployment
+ • Unemployment
      
 
 •	Generate future sales trend predictions for input values.
 •	Upload a CSV dataset to:
 
-     •	Visualize weekly sales trends over time
-     •	Generate correlation heatmaps of numeric features
+ • Visualize weekly sales trends over time
+ • Generate correlation heatmaps of numeric features
 
 •	Time series analysis: Understand how sales change over weeks.
 •	Interactive visualizations using matplotlib and seaborn.
