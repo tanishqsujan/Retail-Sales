@@ -1,4 +1,4 @@
-**Retail Sales Prediction Dashboard**\n
+**Retail Sales Prediction Dashboard**
 A Streamlit web app to predict weekly sales for Walmart stores using a trained CatBoost regression model, and to visualize sales trends and feature interactions.
 
 **Features**
