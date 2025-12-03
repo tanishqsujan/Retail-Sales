@@ -3,14 +3,21 @@
 A Streamlit web app to predict weekly sales for Walmart stores using a trained CatBoost regression model, and to visualize sales trends and feature interactions.
 
 **Features**
+
 •	Predict weekly sales based on inputs:
 
-     •	Store ID
-     •	Holiday Week (0 = No, 1 = Yes)
-     •	Temperature
-     •	Fuel Price
-     •	CPI
-     •	Unemployment
+     • Store ID
+     
+     • Holiday Week (0 = No, 1 = Yes)
+     
+     • Temperature
+     
+     • Fuel Price
+     
+     • CPI
+     
+     • Unemployment
+     
 
 •	Generate future sales trend predictions for input values.
 •	Upload a CSV dataset to:
