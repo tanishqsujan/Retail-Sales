@@ -39,9 +39,11 @@ Requirements include: streamlit, pandas, numpy, matplotlib, seaborn, joblib, cat
 
 
 **Running the App**
+
         streamlit run app.py
 
 •  Click Predict Weekly Sales to see the predicted sales.
+
 •  Optionally, upload a CSV dataset to visualize sales trends.
 
 
@@ -63,6 +65,7 @@ The Holiday Week feature helps the model predict spikes in sales during festival
 
 
 •  Predicted Sales Trend: Shows how predicted sales would change over time based on the input features.
+
 •  Weekly Sales Trend: Plots the uploaded dataset’s sales over time.
 
 
@@ -72,5 +75,7 @@ The Holiday Week feature helps the model predict spikes in sales during festival
 The model was trained using CatBoost Regressor and saved with joblib as catboost_model.joblib.
 
 You can load this model in Python using:
+
        import joblib
+       
        model = joblib.load("catboost_model.joblib")
