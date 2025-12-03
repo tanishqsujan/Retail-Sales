@@ -1,4 +1,5 @@
 **Retail Sales Prediction Dashboard**
+
 A Streamlit web app to predict weekly sales for Walmart stores using a trained CatBoost regression model, and to visualize sales trends and feature interactions.
 
 **Features**
@@ -25,18 +26,20 @@ A Streamlit web app to predict weekly sales for Walmart stores using a trained C
 
 1. Clone the repository:
 
-git clone <repo_url>
-cd retail-sales-prediction
+     git clone <repo_url>
+     cd retail-sales-prediction
 
 
 2. Install dependencies:
 
-pip install -r requirements.txt
+     pip install -r requirements.txt
+
+   
 Requirements include: streamlit, pandas, numpy, matplotlib, seaborn, joblib, catboost
 
 
 **Running the App**
-streamlit run app.py
+        streamlit run app.py
 
 •  Click Predict Weekly Sales to see the predicted sales.
 •  Optionally, upload a CSV dataset to visualize sales trends.
@@ -52,17 +55,22 @@ streamlit run app.py
 | CPI          | Consumer Price Index                 |
 | Unemployment | Unemployment rate                    |
 
+
 The Holiday Week feature helps the model predict spikes in sales during festival or holiday periods.
 
 
 **Visualizations**
+
+
 •  Predicted Sales Trend: Shows how predicted sales would change over time based on the input features.
 •  Weekly Sales Trend: Plots the uploaded dataset’s sales over time.
 
 
 **Saving the Model**
+
+
 The model was trained using CatBoost Regressor and saved with joblib as catboost_model.joblib.
 
 You can load this model in Python using:
-import joblib
-model = joblib.load("catboost_model.joblib")
+       import joblib
+       model = joblib.load("catboost_model.joblib")
