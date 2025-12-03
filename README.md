@@ -26,13 +26,13 @@ A Streamlit web app to predict weekly sales for Walmart stores using a trained C
 
 1. Clone the repository:
 
-     git clone <repo_url>
-     cd retail-sales-prediction
+        git clone <repo_url>
+        cd retail-sales-prediction
 
 
 2. Install dependencies:
 
-     pip install -r requirements.txt
+        pip install -r requirements.txt
 
    
 Requirements include: streamlit, pandas, numpy, matplotlib, seaborn, joblib, catboost
@@ -76,6 +76,7 @@ The model was trained using CatBoost Regressor and saved with joblib as catboost
 
 You can load this model in Python using:
 
-       import joblib
+         import joblib
        
-       model = joblib.load("catboost_model.joblib")
+         model = joblib.load("catboost_model.joblib")
+ 
